@@ -1,0 +1,9 @@
+#!/bin/bash
+pwd=$(pwd)
+echo $pwd
+#parentdir="$(dirname "$pwd")"
+parentdir=$pwd
+echo $parentdir
+export PYTHONPATH=$PYTHONPATH:$parentdir
+echo "PYTONPATH::$PYTHONPATH"
+PYTHONPATH=$PYTHONPATH python3 $1
