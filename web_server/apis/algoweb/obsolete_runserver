@@ -1,0 +1,8 @@
+#!/bin/bash
+pwd=$(pwd)
+echo $pwd
+parentdir="$(dirname "$pwd")"
+echo $parentdir
+export PYTHONPATH=$PYTHONPATH:$parentdir
+echo "PYTONPATH:::$PYTHONPATH"
+exec ./manage.py runserver 0.0.0.0:8082

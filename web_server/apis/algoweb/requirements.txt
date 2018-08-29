@@ -1,0 +1,17 @@
+Django==2.0.5
+django-sekizai
+django-autoslug
+ipython
+ipdb
+jsonfield
+django-extensions
+django-jsonify
+django-devserver
+django-suit
+django-settings-export
+django-tools
+djangorestframework
+djangorestframework-filters
+django-rest-swagger
+requests
+
